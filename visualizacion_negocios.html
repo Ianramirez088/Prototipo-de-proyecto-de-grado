@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Directorio de Comercios Pereira</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 p-6 font-sans">
+    <div class="max-w-6xl mx-auto space-y-6">
+        <a href="./index.html">
+            Cerrar sesion
+        </a>
+        <div class="bg-yellow-100 text-yellow-800 p-4 rounded-xl shadow">
+            Para disfrutar de todos los beneficios como descuentos y calificar empleados, crea una cuenta e inicia
+            sesión.
+        </div>
+
+        <div class="flex items-center gap-4">
+            <input type="text" placeholder="Buscar comercios o servicios..." class="border p-2 rounded w-full"
+                disabled />
+            <button class="p-2 border rounded bg-gray-200 cursor-not-allowed" disabled>
+                🔍
+            </button>
+        </div>
+
+        <h2 class="text-2xl font-bold mt-8">Explorar Negocios</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Tarjeta de negocio -->
+            <div class="p-4 rounded-xl shadow border bg-white">
+                <a href="./cafe_pereira.html">
+                    <h3 class="text-xl font-bold">Café Pereira</h3>
+                </a>
+                <p class="text-sm text-gray-600">Cafetería gourmet en el centro de Pereira.</p>
+                <p class="text-sm mt-2">📍 Cra 7 #21-30, Pereira</p>
+                <p class="text-yellow-500 mt-1">⭐ 4.5</p>
+                <p class="text-blue-600 mt-2">
+                    🌐 <a href="https://cafepereira.com" target="_blank" class="underline">Sitio web</a>
+                </p>
+                <a href="https://www.google.com/maps?q=4.814669, -75.694199" target="_blank">
+                    <button class="mt-3 bg-green-500 text-white px-4 py-2 rounded-circle">
+                        Ubicacion
+                    </button>
+                </a>
+            </div>
+
+            <!-- Otro ejemplo -->
+            <div class="p-4 rounded-xl shadow border bg-white">
+                <a href="./tienda_vida.html">
+                    <h3 class="text-xl font-bold">Tienda Natural Vida</h3>
+                </a>
+                <p class="text-sm text-gray-600">Productos naturales y orgánicos para tu salud.</p>
+                <p class="text-sm mt-2">📍 Av Circunvalar #45-10, Pereira</p>
+                <p class="text-yellow-500 mt-1">⭐ 4.7</p>
+                <p class="text-blue-600 mt-2">
+                    🌐 <a href="https://tiendanaturalvida.com" target="_blank" class="underline">Sitio web</a>
+                </p>
+                <a href="https://www.google.com/maps?q=4.806758, -75.685328" target="_blank">
+                    <button class="mt-3 bg-green-500 text-white px-4 py-2 rounded-circle">
+                        Ubicacion
+                    </button>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

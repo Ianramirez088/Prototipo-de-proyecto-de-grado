@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalle del Negocio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-ujU0tVgoCEQcZV7fFCdXJ0hSg7EkhJ1dbwqBgEmGC3YF6qHJMrvlFzICJZTuCRzTbK7o7sH5H3RkSD7F5+0RgA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-gray-100 p-6 font-sans">
+
+    <div class="max-w-4xl mx-auto bg-white p-6 rounded-xl shadow-lg space-y-6">
+        <!-- Imagen destacada del negocio -->
+        <div class="overflow-hidden rounded-xl">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Café Pereira"
+                class="w-full h-64 object-cover" />
+        </div>
+        <a href="./visualizacion_negocios.html">
+            <input type="button" value="Volver" class="bg-blue-500 text-white mt-3 p-2 rounded hover:bg-blue-600">
+        </a>
+        <!-- Encabezado -->
+        <div class="flex flex-col sm:flex-row sm:justify-between items-start sm:items-center">
+            <div>
+                <h1 class="text-3xl font-bold mb-2">Café Pereira</h1>
+                <p class="text-gray-700">Razón social: <span class="font-medium">Café Pereira S.A.S</span></p>
+                <p class="text-gray-700">NIT: <span class="font-medium">900123456</span></p>
+            </div>
+            <div class="mt-4 sm:mt-0">
+                <p class="text-yellow-500 text-xl"><i class="fa-solid fa-star"></i> 4.5 / 5</p>
+            </div>
+        </div>
+
+        <!-- Descripción -->
+        <div>
+            <h2 class="text-xl font-semibold mb-1">Descripción</h2>
+            <p class="text-gray-600">Cafetería gourmet en el centro de Pereira, ideal para disfrutar de una buena taza
+                de café y repostería artesanal.</p>
+        </div>
+
+        <!-- Productos o Servicios -->
+        <div>
+            <h2 class="text-xl font-semibold mb-1">Productos o Servicios</h2>
+            <ul class="list-disc list-inside text-gray-700 space-y-1">
+                <li>Café de origen</li>
+                <li>Repostería</li>
+                <li>Desayunos típicos</li>
+            </ul>
+        </div>
+
+        <!-- Dirección y Mapa -->
+        <div>
+            <h2 class="text-xl font-semibold mb-1">Ubicación</h2>
+            <p class="text-gray-700"><i class="fa-solid fa-location-dot mr-1 text-red-500"></i> Cra 7 #21-30, Pereira
+            </p>
+            <a href="https://www.google.com/maps?q=4.814669,-75.694199" target="_blank"
+                class="inline-block mt-2 bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
+                <i class="fa-solid fa-map-location-dot mr-1"></i> Ver en Google Maps
+            </a>
+        </div>
+
+        <!-- Sitio Web -->
+        <div>
+            <h2 class="text-xl font-semibold mb-1">Sitio Web</h2>
+            <a href="https://cafepereira.com" target="_blank" class="text-blue-600 underline hover:text-blue-800">
+                <i class="fa-solid fa-globe mr-1"></i> cafepereira.com
+            </a>
+        </div>
+
+        <!-- Imagen secundaria o galería (opcional) -->
+        <div>
+            <h2 class="text-xl font-semibold mb-2">Ambiente del lugar</h2>
+            <div class="grid grid-cols-2 gap-4">
+                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5" alt="Ambiente 1"
+                    class="rounded-lg object-cover h-40 w-full">
+                <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9" alt="Ambiente 2"
+                    class="rounded-lg object-cover h-40 w-full">
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
